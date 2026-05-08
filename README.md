@@ -49,13 +49,16 @@ docker build -t jailbreak-defense .
 
 ---
 
+
+Run container:
+
+```bash
+
+
 ## Hardware
 
 - NVIDIA RTX 5060 (BERT fine-tuning ~48 min)
 - RF baseline trained on CPU
 
-Run container:
-
-```bash
 docker run -p 8000:8000 jailbreak-defense
 ```
