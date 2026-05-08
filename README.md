@@ -21,6 +21,8 @@ Lightweight classifier to intercept jailbreak prompts at inference time without 
 - Cheaper methods (RF, embedding-based, rule-based) all fail on **adversarial benign**: jailbreak-style wording with benign intent
 - Adversarial augmentation during training reduced BERT false positives by 22%
 
+
+
 ## FastAPI Demo
 
 Run API locally:
@@ -44,6 +46,13 @@ Build container:
 ```bash
 docker build -t jailbreak-defense .
 ```
+
+---
+
+## Hardware
+
+- NVIDIA RTX 5060 (BERT fine-tuning ~48 min)
+- RF baseline trained on CPU
 
 Run container:
 
