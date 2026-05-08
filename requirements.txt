@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+transformers
+torch
+nltk
+textattack
+fastapi
+uvicorn
+python-multipart
